@@ -1,5 +1,5 @@
 # PokeMemory
-## demo: https://tangshii.github.io/PokeMemory/<br/>
+## demo: https://tangshii.github.io/PokeMemory/
 
 Web based memory matching game using html, css, and javascript. <br/>
 
