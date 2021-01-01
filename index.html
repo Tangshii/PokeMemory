@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+  </script>
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="pokeMem.css" />
+  <script src="pokeMem.js"></script>
+</head>
+
+<body>
+  <div id="back">
+    <div id="cen">
+
+      <div id="d">
+        <div id="title">PokéMemory</div>
+        <button onClick="easy()"> Easy </button> 16 images | 4 secs to memorize<br>
+        <button onClick="med()"> Med </button> 20 images | 5 secs to memorize<br>
+        <button onClick="hard()"> Hard </button> 24 images | 6 secs to memorize
+      </div>
+
+      <button value="Refresh Page"
+      onClick="window.location.reload();" id="v" >Restart</button>
+
+      <audio id="myAudio">
+        <source src="res/music.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <div id=time>Time:<span id="countdown"></span></div>
+        <div id = "container"></div>
+
+        audio:
+        <button onclick="playAudio()" type="button">on</button>
+        <button onclick="pauseAudio()" type="button">off</button>
+
+      </div>
+    </div>
+
+  </body>
+    <script src="pokeMem.js"></script>
+  </html>
